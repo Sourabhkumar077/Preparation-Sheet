@@ -8,7 +8,7 @@ Input: number = 153 or 371
 Output: Armstrong Number
 Explanation: 153 is an Armstrong number because 1^3 + 5^3 + 3^3 = 153
  */
-public class Problem4 {
+public class Problem04 {
     public static void main(String[] args) {
         int originalNum = 371, num, remainder, result = 0;
         num = originalNum;

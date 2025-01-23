@@ -10,7 +10,7 @@ Explanation: The Fibonacci series up to 10 is generated as [0, 1, 1, 2, 3, 5, 8]
 
 
  */
-public class Problem5 {
+public class Problem05 {
     public static void Fibonacci(int limit){
         int n1 = 0;
         int n2 = 1;

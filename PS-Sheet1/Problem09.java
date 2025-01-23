@@ -10,7 +10,7 @@ Output: 10
 Explanation: The sum of the digits 1 + 2 + 3 + 4 = 10
  */
 
-public class Problem9 {
+public class Problem09 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a Number: ");

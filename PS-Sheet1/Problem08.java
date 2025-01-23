@@ -11,7 +11,7 @@ Explanation: 5! (factorial) is 5 × 4 × 3 × 2 × 1 = 120.
 
 import java.util.Scanner;
 
-public class Problem8 {
+public class Problem08 {
     public static int factorial(int n) {
         int result = 1;
 

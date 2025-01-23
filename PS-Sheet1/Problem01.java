@@ -8,7 +8,7 @@ Input: number = 4
 Output: Even
 Explanation: Since 4 is divisible by 2, it is an even number.
  */
-public class Problem1 {
+public class Problem01 {
 
     public static void main(String[]args){
         int num = 4;

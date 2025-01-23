@@ -8,7 +8,7 @@ Input: number = 7
 Output: Prime
 
  */
-public class Problem2 {
+public class Problem02 {
 public static void main(String[] arg) {
     int num = 7;
     for( int i=2; i < num; i++){

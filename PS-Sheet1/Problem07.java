@@ -16,7 +16,7 @@ Explanation: A pyramid pattern with a height of 5 is generated.
 
 */
 
-public class Problem7 {
+public class Problem07 {
     public static void main(String[] args) {
         int height = 5;
         for (int i = 0; i < height; i++) {

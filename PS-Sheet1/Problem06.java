@@ -9,6 +9,6 @@ Output: Palindrome
 Explanation: "radar" reads the same backward as forward.
  */
 
-public class Problem6 {
+public class Problem06 {
     
 }

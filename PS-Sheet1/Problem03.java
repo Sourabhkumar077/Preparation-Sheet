@@ -10,7 +10,7 @@ Explanation: 2020 is divisible by 4 but not by 100, or it is divisible by 400, s
 
 
  */
-public class Problem3 {
+public class Problem03 {
     public static void main(String[] args) {
         int year = 2020;
         if((year % 4 == 0 && year % 100 != 0) || year % 400 == 0){
