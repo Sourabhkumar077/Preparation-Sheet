@@ -31,3 +31,4 @@ public class Problem20 {
         return divisorSum == number;
     }
 }
+
