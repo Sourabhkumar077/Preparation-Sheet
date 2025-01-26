@@ -15,6 +15,7 @@ public class Problem20 {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter Number to check : ");
         int number = sc.nextInt();
+        sc.close();
         if(checkPerfect(number)){
             System.out.println("Perfect Number");
         }else {

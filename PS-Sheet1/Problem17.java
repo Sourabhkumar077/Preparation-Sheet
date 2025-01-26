@@ -18,6 +18,7 @@ public class Problem17 {
         System.out.print("enter the ending of range : ");
         int end = sc.nextInt();
         armstrongInRange(start,end);
+        sc.close();
 
     }
     public static void armstrongInRange(int start , int end){

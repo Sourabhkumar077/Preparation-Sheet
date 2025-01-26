@@ -11,7 +11,7 @@ Output: 2, 3, 5, 7, 11, 13, 17, 19
 Explanation: The prime numbers less than 20 are 2, 3, 5, 7, 11, 13, 17, and 19.
  */
 public class Problem24 {
-    public static void main(String[] args) {
+    public static void main (String[] args) {
         Scanner s = new Scanner(System.in);
         System.out.print("Enter Number : ");
         int number = s.nextInt();
