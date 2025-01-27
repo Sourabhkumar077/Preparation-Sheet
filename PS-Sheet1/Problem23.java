@@ -18,6 +18,7 @@ public class Problem23 {
         int position = scanner.nextInt();
         int fibonacciNumber = findFibonacci(position);
         System.out.println("The Fibonacci number at position " + position + " is: " + fibonacciNumber);
+        scanner.close();
     }
     public static int findFibonacci(int position) {
         if (position <= 1) {
