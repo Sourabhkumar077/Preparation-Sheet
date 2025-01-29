@@ -13,8 +13,29 @@ Output:
     1 3 3 1  
 Explanation: Pascal's Triangle with 4 rows is generated.
  */
+
+import java.util.Scanner;
+/** Generated a pascal triangle
+ *  Each row corresponds to the binomial coefficients.
+ *  The value at each position is the sum of the two numbers directly above it.
+ */
+
 public class Problem31 {
     public static void main(String[] args) {
-        
+       Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the number of rows: ");
+        int rows = sc.nextInt();
+        printPascal(rows);
+        sc.close();
+    }
+    public static void printPascal(int rows) {
+        for (int i = 0; i < rows; i++) {
+            int num = 1;  
+            for (int j = 0; j <= i; j++) {
+                System.out.print(num + " ");
+                num = num * (i - j) / (j + 1);
+            }
+            System.out.println();
+        }
     }
 }
