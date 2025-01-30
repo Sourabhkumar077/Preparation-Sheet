@@ -18,6 +18,7 @@ public class Problem33 {
         int base = sc.nextInt();
         System.out.println("Enter exponent value : ");
         int exponent = sc.nextInt();
+        sc.close();
         System.out.println("Power value of number" + base + " in exponent "+exponent+ " is = " + findPower(base, exponent));
 
     }

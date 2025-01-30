@@ -18,6 +18,7 @@ public class Problem35 {
         int start = s.nextInt();
         System.out.print("Enter ending number : ");
         int end = s.nextInt();
+        s.close();
 
         System.out.println("Sum of Primes in range : " + primesLessThanRange(start,end));
     }
