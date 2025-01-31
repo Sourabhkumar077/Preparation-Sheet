@@ -15,7 +15,6 @@ public class Problem38 {
         System.out.print("Enter a number: ");
         int number = scanner.nextInt();
         scanner.close();
-        int sumOfSquares = 0;
         System.out.println("The sum of the squares of the digits of " + number + " is: " + sumOfSquares(number));
     }
     public static int sumOfSquares(int number) {
