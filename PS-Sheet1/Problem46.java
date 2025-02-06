@@ -26,6 +26,10 @@ public class Problem46 {
         int strlength = 0;
         for (char c : str.toCharArray()) {
             strlength++;
+            // speacial character ignore this case
+            if(c == '*'){
+                System.out.println(c);
+            }
         }
         return strlength;
     }
