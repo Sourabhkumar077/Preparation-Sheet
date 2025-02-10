@@ -12,4 +12,9 @@ public class Problem15 {
     public static void main(String[] args) {
         
     }
+
+    public static int numberSumInString(){
+       int sum = 0;
+       return sum; 
+    }
 }
