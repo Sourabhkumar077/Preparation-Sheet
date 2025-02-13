@@ -11,7 +11,7 @@ Explanation: Pairs that sum up to 5 are (1, 4) and (2, 3).
 
 import java.util.Scanner;
 
-public class Problem4 {
+public class Problem04 {
     public static void main(String[] args) {
         int arr[] = {1,2,3,4,5,6,7,8};
         Scanner sc = new Scanner(System.in);

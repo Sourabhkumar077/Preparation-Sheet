@@ -11,7 +11,7 @@ Explanation: Sum of the first 5 odd numbers (1 + 3 + 5 + 7 + 9) is 25.
 
 import java.util.Scanner;
 
-public class Problem9 {
+public class Problem09 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("enter the value of n : ");

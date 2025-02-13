@@ -10,7 +10,7 @@ Output: 12
 Explanation: The GCD of 12, 24, and 36 is 12.
  */
 
-public class Problem8 {
+public class Problem08 {
     public static void main(String[] args) {
         int arr[] = {12, 24, 36}; 
         System.out.println("GCD of array: " + findGcd(arr));

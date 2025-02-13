@@ -11,7 +11,7 @@ Explanation: Sum of the series is 1 + 1/2 + 1/3 + 1/4 ≈ 2.083333.
 
 import java.util.Scanner;
 
-public class Problem3 {
+public class Problem03 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

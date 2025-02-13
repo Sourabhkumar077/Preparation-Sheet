@@ -11,7 +11,7 @@ Explanation: Sum of digits is 1 + 2 + 3 = 6; sum of digits of 6 is 6 (which is a
 
 import java.util.Scanner;
 
-public class Problem1 {
+public class Problem01 {
 
     public static void main(String[] args) {
         Scanner sc= new Scanner(System.in);

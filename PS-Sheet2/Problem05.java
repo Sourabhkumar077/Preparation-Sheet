@@ -15,10 +15,9 @@ Output:
   *  
  */
 
-public class Problem5 {
+public class Problem05 {
    public static void main(String[] args) {
     printDiamond();
-
    } 
    public static void printDiamond() {
     

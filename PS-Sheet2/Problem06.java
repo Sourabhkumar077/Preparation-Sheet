@@ -11,7 +11,7 @@ Explanation: Palindromic substrings are "a", "a", "a", "aa", "aa", "aaa".
 
 import java.util.Scanner;
 
-public class Problem6 {
+public class Problem06 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a string : ");
