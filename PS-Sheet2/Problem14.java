@@ -37,8 +37,10 @@ public class Problem14 {
     }
 
     public static void main(String[] args) {
+        // you can also takee the strig as a user input
+        
         String str = "{[()]}";  // Example input
-        System.out.println(isBalanced(str) ? "Balanced" : "Not Balanced");
+        System.out.println(isBalanced(str) ? " String is Balanced" : " String isNot Balanced");
     }
 }
 
