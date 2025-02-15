@@ -38,9 +38,29 @@ public class Problem14 {
 
     public static void main(String[] args) {
         // you can also takee the strig as a user input
-        
+
         String str = "{[()]}";  // Example input
         System.out.println(isBalanced(str) ? " String is Balanced" : " String isNot Balanced");
     }
 }
 
+/*
+ * 🔹 Step-by-Step Explanation
+1️⃣ Using a Stack Data Structure
+A stack follows LIFO (Last In, First Out), meaning the last bracket added will be the first one removed.
+This helps in checking nested brackets easily.
+
+2️⃣ Processing Each Character
+
+If it’s an opening bracket ({, [, () → Push it onto the stack.
+If it’s a closing bracket (}, ], )):
+Check if the stack is empty (if yes, return false because there's no opening bracket).
+Pop the top element from the stack and check if it matches the current closing bracket.
+If it doesn't match, return false (because of incorrect pairing).
+
+3️⃣ Final Check
+
+After processing all characters, if the stack is empty, the brackets were properly matched → return true.
+If the stack is not empty, some opening brackets were not closed → return false.
+
+ */
