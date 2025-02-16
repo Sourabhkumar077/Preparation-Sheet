@@ -23,6 +23,7 @@ public class Problem19 {
         perfectSquareInRange(start, end);
         sc.close();
     }
+
     public static void perfectSquareInRange(int start, int end) {
         for (int i = start; i <= end; i++) {
             if (isPerfectSquare(i)) {
@@ -30,6 +31,7 @@ public class Problem19 {
             }
         }
     }
+
     static boolean isPerfectSquare(int n) {
         int sqrt = (int) Math.sqrt(n);
         return sqrt * sqrt == n;
