@@ -11,6 +11,20 @@ Explanation: The word "hello" appears 2 times in the string.
  */
 public class Problem26 {
     public static void main(String[] args) {
+        String str = "hello world hello";
+        String word = "hello";
+        int count = countWord(str, word);
+        System.out.println("The word \"" + word + "\" appears " + count + " times in the string."); 
         
+    }
+    public static int countWord(String str, String word) {
+        int count = 0;
+        String[] words = str.split(" ");
+        for (String w : words) {
+            if (w.equals(word)) {
+                count++;
+            }
+        }
+        return count;
     }
 }
