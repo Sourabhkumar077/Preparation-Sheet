@@ -10,6 +10,22 @@ Explanation: The digits
  */
 public class Problem37 {
     public static void main(String[] args) {
-        
+        int number = 54321;
+        int value = 3;
+        int count = countDigitsGreaterThanValue(number, value);
+        System.out.println(count);
+    }
+
+    public static int countDigitsGreaterThanValue(int number, int value) {
+        int count = 0;
+        while (number > 0) {
+            int digit = number % 10;
+            if (digit > value) {
+                count++;
+            }
+            number /= 10;
+        }
+        return count;
     }
 }
+
