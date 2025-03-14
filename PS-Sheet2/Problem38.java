@@ -19,20 +19,18 @@ public class Problem38 {
     }
 
     public static void generatePrimePattern(int rows) {
-        int primeCount = 0;
+        int count = 0;
         int num = 2;
         for (int i = 1; i <= rows; i++) {
             for (int j = 1; j <= i; j++) {
-                if (isPrime(num)) {
-                    System.out.print(num + " ");
-                    primeCount++;
-                } else {
+                while (!isPrime(num)) {
                     num++;
-                    j--;
                 }
+                System.out.print(num + " ");
+                num++;
+                count++;
             }
             System.out.println();
-            num++;
         }
     }
 
