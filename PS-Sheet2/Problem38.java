@@ -19,16 +19,15 @@ public class Problem38 {
     }
 
     public static void generatePrimePattern(int rows) {
-        int count = 0;
         int num = 2;
         for (int i = 1; i <= rows; i++) {
-            for (int j = 1; j <= i; j++) {
-                while (!isPrime(num)) {
-                    num++;
+            int primesPrinted = 0;
+            while (primesPrinted < i) {
+                if (isPrime(num)) {
+                    System.out.print(num + " ");
+                    primesPrinted++;
                 }
-                System.out.print(num + " ");
                 num++;
-                count++;
             }
             System.out.println();
         }
@@ -38,7 +37,7 @@ public class Problem38 {
         if (num <= 1) {
             return false;
         }
-        for (int i = 2; i <= Math.sqrt(num); i++) {
+        for (int i = 2; i * i <= num; i++) { // Using i * i instead of Math.sqrt for efficiency
             if (num % i == 0) {
                 return false;
             }
