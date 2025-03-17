@@ -14,6 +14,16 @@ Output:
  */
 public class Problem41 {
     public static void main(String[] args) {
-        
+        int rows = 3;
+        printPattern(rows);
+    }
+    public static void printPattern(int rows) {
+        // Write your code here
+        for(int i=1; i<=rows; i++) {
+            for(int j=1; j<=i; j++) {
+                System.out.print(j + " ");
+            }
+            System.out.println();
+        }
     }
 }
