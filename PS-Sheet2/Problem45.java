@@ -36,6 +36,7 @@ public class Problem45 {
         int rows = sc.nextInt();
         System.out.print("Enter the number of columns: ");        
         int columns = sc.nextInt();
+        sc.close();
         generateRandomNumMatrix(rows, columns);
     }
 }
