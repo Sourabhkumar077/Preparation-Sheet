@@ -11,6 +11,10 @@ Explanation: The unique triplets that sum to zero are listed.
  */
 public class Problem47 {
     public static void main(String[] args) {
-        
+        int array[] = {-1, 0, 1, 2, -1, -4};
+        findTriplets(array);
+    }
+    public static void findTriplets(int[] arr) {
+        // Your code goes here
     }
 }

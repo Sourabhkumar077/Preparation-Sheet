@@ -12,4 +12,8 @@ public class Problem46 {
     public static void main(String[] args) {
         
     }
+    public static int findLongestWord(String str) {
+        // Your code goes here
+        return 0;
+    }
 }
