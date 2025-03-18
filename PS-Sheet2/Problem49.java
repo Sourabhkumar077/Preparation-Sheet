@@ -10,6 +10,22 @@ Explanation: The sum of even numbers is 12, and the sum of odd numbers is 8. The
  */
 public class Problem49 {
     public static void main(String[] args) {
-        
+        int array[] = { 1, 2, 3, 4, 5, 6 };
+        System.out.println(findDifference(array));
+    }
+
+    public static int findDifference(int[] array) {
+        int evenSum = 0;
+        int oddSum = 0;
+
+        for (int num : array) {
+            if (num % 2 == 0) {
+                evenSum += num;
+            } else {
+                oddSum += num;
+            }
+        }
+
+        return evenSum - oddSum;
     }
 }
