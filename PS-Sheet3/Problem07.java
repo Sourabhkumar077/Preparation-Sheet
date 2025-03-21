@@ -24,7 +24,7 @@ public class Problem07 {
                 System.out.print(" "); // print spaces
             }
             for (int k = 1; k <= i; k++) {
-                System.out.print(" *"); // print asterisks
+                System.out.print("*"); // print asterisks
             }
             System.out.println();
         } 
