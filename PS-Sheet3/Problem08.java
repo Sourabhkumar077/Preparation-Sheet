@@ -30,7 +30,11 @@ Output:
  */
 public class Problem08 {
   public static void main(String[] args) {
-      
+      int size= 5;
+      printPattern(size);
+  }
+  public static void printPattern(int size){
+
   }
 }
 
