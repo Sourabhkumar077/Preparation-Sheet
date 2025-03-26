@@ -12,8 +12,22 @@ Output:
 0101
 1010
  */
+
+import java.util.Scanner;
+
 public class Problem11 {
     public static void main(String[] args) {
-        
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();// Get the size of the matrix from the user
+        printPattern(n);
+        sc.close();
+    }
+    public static void printPattern(int n) {
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                System.out.print((i + j) % 2 + " ");
+            }
+            System.out.println();
+        }
     }
 }
