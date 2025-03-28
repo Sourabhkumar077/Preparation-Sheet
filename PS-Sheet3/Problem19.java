@@ -13,17 +13,19 @@ CCC
  */
 public class Problem19 {
     public static void main(String[] args) {
-       int n = 3;
-       printPattern(n); 
+        int n = 3;
+        printPattern(n); 
     }
     public static void printPattern(int n) {
+        char c = 'C'; // start with character 'C'
         for (int i = n; i >= 1; i--) {
             for (int j = 1; j <= n - i; j++) {
                 System.out.print(" ");
             }
-            for (int= j = 1; j <= i; j++) {
-                System.out.print(i);
+            for (int j = 1; j <= i; j++) {
+                System.out.print(c); // print character
             }
+            c--; // decrement character for next row
             System.out.println();
         }
     }
