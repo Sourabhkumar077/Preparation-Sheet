@@ -13,6 +13,19 @@ Output:
  */
 public class Problem31 {
     public static void main(String[] args) {
-        
+        int n = 3; // input value
+        printTriangularMatrix(n);
+    }
+
+    public static void printTriangularMatrix(int n) {
+        int num = 1; // starting number
+        for (int i = 1; i <= n; i++) {
+            // print row
+            for (int j = 1; j <= i; j++) {
+                System.out.print(num + " ");
+                num++; // increment number
+            }
+            System.out.println();
+        }
     }
 }
