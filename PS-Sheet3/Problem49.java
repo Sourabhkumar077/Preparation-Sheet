@@ -25,7 +25,7 @@ public class Problem49 {
                 System.out.print(num + " ");
                 num++;
             }
-            System.out.println();
+            System.out.println("");
         }
     }
 }
