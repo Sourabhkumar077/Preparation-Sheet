@@ -14,7 +14,9 @@ Output:
  */
 public class Problem49 {
     public static void main(String[] args) {
-        int n = 3; // input value
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter the value of n: ");
+        int n = scanner.nextInt(); // input value
         printPattern(n);
     }
 
@@ -25,7 +27,7 @@ public class Problem49 {
                 System.out.print(num + " ");
                 num++;
             }
-            System.out.println("");
+            System.out.println();
         }
     }
 }
