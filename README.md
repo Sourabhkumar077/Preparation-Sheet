@@ -8,16 +8,16 @@ Welcome to my repository! This project is a comprehensive solution to a curated 
 ## 📌 **Overview**  
 This repository contains my solutions to 150 thoughtfully selected programming problems, covering a wide range of topics. Each problem has been carefully chosen to build a strong problem-solving mindset, improve logical thinking, and enhance coding efficiency.
 
-🔹 What’s Inside?
+🔹 What’s Inside? <br> 
 A diverse collection of problems, ranging from basic to advanced levels.
 Covers key concepts like Arrays , basic programming, String manipulation, Algortihms, recursion, optimization, and more.
 Each solution is well-structured, optimized, and includes clear explanations to aid understanding.
 
 🎯 Goals & Benefits:
-✔ Develop a systematic approach to tackling problems efficiently.
-✔ Strengthen coding interview preparation with real-world challenges.
-✔ Enhance debugging skills and algorithmic thinking.
-✔ Improve speed and accuracy in competitive programming.
+✔ Develop a systematic approach to tackling problems efficiently.<br>
+✔ Strengthen coding interview preparation with real-world challenges.<br>
+✔ Enhance debugging skills and algorithmic thinking.<br>
+✔ Improve speed and accuracy in competitive programming.<br>
 
 Whether you're preparing for coding interviews, competitive programming, or just honing your problem-solving skills, this repository serves as a valuable resource.
 Happy Coding! 🚀💡  
